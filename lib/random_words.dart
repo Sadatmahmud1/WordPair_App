@@ -72,7 +72,7 @@ final _savedWordPairs = Set<WordPair>();
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('WordPair Generator'),
+        title: Center(child: Text('WordPair Generator by sadat')),
         actions: <Widget>[
           IconButton(
           icon: Icon(Icons.list),
